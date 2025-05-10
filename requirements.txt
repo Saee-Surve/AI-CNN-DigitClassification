@@ -1,6 +1,27 @@
-pip install --upgrade pip
-pip install streamlit==1.16.0
-pip install streamlit-drawable-canvas==0.7.0
-pip install tensorflow==2.12.0
-pip install pillow==9.2.0
-pip install numpy==1.23.4
+# Upgrade pip to avoid version issues
+pip>=21.0
+
+# Streamlit version
+streamlit>=1.20.0
+
+# TensorFlow for machine learning
+tensorflow==2.12.0
+
+# Pillow for image processing
+pillow==9.2.0
+
+# NumPy for numerical operations
+numpy==1.23.4
+
+# Streamlit Drawable Canvas for drawing on the interface
+streamlit-drawable-canvas==0.7.0
+
+# Rich for improved logging
+rich==12.6.0
+
+# Markdown-it-py for markdown support
+markdown-it-py==3.0.0
+
+# Additional required dependencies (if any)
+pygments==2.19.1
+mdurl==0.1.2
